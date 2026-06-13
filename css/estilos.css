@@ -223,28 +223,64 @@ footer{
 
 
 
-@media(max-width:768px){
+@media (max-width: 768px) {
 
-    .header-principal{
-        flex-direction:column;
-        text-align:center;
+    .header-principal {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
     }
 
-    .header-principal h1,
-    .header-principal p{
-        text-align:center;
+    .header-principal h1 {
+        font-size: 1.8rem;
     }
 
-    .logo{
-        width:120px;
+    .header-principal p {
+        font-size: 1rem;
+        text-align: center;
     }
 
-    nav a{
-        display:block;
-        margin:10px 0;
+    .logo {
+        width: 140px;
     }
 
-    img{
-        width:100%;
+    nav {
+        padding: 10px;
     }
-}   
+
+    nav a {
+        display: block;
+        margin: 12px 0;
+        font-size: 18px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    h1, h2 {
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .servicio {
+        margin: 15px 10px;
+        padding: 15px;
+    }
+
+    form {
+        padding: 20px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
